@@ -1,4 +1,4 @@
-Package: bnstruct
+Package: bnstruct_score
 Description: Bayesian Network Structure Learning from Data with Missing Values.
     The package implements the Silander-Myllymaki complete search,
     the Max-Min Parents-and-Children, the Hill-Climbing, the
@@ -6,6 +6,7 @@ Description: Bayesian Network Structure Learning from Data with Missing Values.
     Expectation-Maximization algorithm. Available scoring functions are
     BDeu, AIC, BIC. The package also implements methods for generating and using
     bootstrap samples, imputed data, inference.
+	MODIFIED TO RETURN LEARNING SCORE
 Type: Package
 Title: Bayesian Network Structure Learning from Data with Missing Values
 Version: 1.0.11
